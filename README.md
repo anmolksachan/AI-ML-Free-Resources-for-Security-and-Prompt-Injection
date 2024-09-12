@@ -116,6 +116,58 @@ This repository contains a curated list of free resources focused on AI/ML secur
 
 - **[CTF Writeup — HackPack CTF 2024 — LLM edition — YellowDog-1](https://medium.com/@embossdotar/ctf-writeup-hackpack-ctf-2024-llm-edition-yellowdog-1-db02a36e1051)**
 
+- **[AI Exploits](https://github.com/protectai/ai-exploits?tab=readme-ov-file)**
+
+- **[From MLOps to MLOops: Exposing the Attack Surface of Machine Learning Platforms](https://jfrog.com/blog/from-mlops-to-mloops-exposing-the-attack-surface-of-machine-learning-platforms/)**
+
+- **[Google AI Studio: LLM-Powered Data Exfiltration Hits Again! Quickly Fixed.](https://embracethered.com/blog/posts/2024/google-ai-studio-data-exfiltration-now-fixed/)**
+  
+- **[CSWSH Meets LLM Chatbots](https://medium.com/@r3vsh/cswsh-meets-llm-chatbots-3ab09af5ab6f)**
+
+- **[Jailbreak of Meta AI (Llama -3.1) revealing configuration details](https://medium.com/@kiranmaraju/jailbreak-of-meta-ai-llama-3-1-revealing-configuration-details-9f0759f5006a)**
+
+- **[Zeroday on Github Copilot](https://gccybermonks.com/posts/github/)**
+
+- **[Sorry, ChatGPT Is Under Maintenance: Persistent Denial of Service through Prompt Injection and Memory Attacks](https://embracethered.com/blog/posts/2024/chatgpt-persistent-denial-of-service/)**
+
+- **[Shelltorch Explained: Multiple Vulnerabilities in Pytorch Model Server (Torchserve) (CVSS 9.9, CVSS 9.8) Walkthrough](https://www.oligo.security/blog/shelltorch-explained-multiple-vulnerabilities-in-pytorch-model-server)**
+
+- **[When Prompts Go Rogue: Analyzing a Prompt Injection Code Execution in Vanna.AI](https://jfrog.com/blog/prompt-injection-attack-code-execution-in-vanna-ai-cve-2024-5565/)**
+
+- **[GitHub Copilot Chat: From Prompt Injection to Data Exfiltration](https://embracethered.com/blog/posts/2024/github-copilot-chat-prompt-injection-data-exfiltration/)**
+
+- **[Dumping a Database with an AI Chatbot](https://www.synack.com/blog/dumping-a-database-with-an-ai-chatbot/)**
+
+- **[My LLM Bug Bounty Journey on Hugging Face Hub via Protect AI](https://medium.com/@zpbrent/my-llm-bug-bounty-journey-on-hugging-face-hub-via-protect-ai-9f3a1bc72c2e)**
+
+- **[LLM Pentest: Leveraging Agent Integration For RCE](https://www.blazeinfosec.com/post/llm-pentest-agent-hacking/)**
+
+- **[Google AI Studio Data Exfiltration via Prompt Injection - Possible Regression and Fix](https://embracethered.com/blog/posts/2024/google-aistudio-mass-data-exfil/)**
+
+- **[From ChatBot To SpyBot: ChatGPT Post Exploitation](https://www.imperva.com/blog/from-chatbot-to-spybot-chatgpt-post-exploitation/)**
+
+- **[Security Flaws within ChatGPT Ecosystem Allowed Access to Accounts On Third-Party Websites and Sensitive Data](https://salt.security/blog/security-flaws-within-chatgpt-extensions-allowed-access-to-accounts-on-third-party-websites-and-sensitive-data)**
+
+- **[New Google Gemini Vulnerability Enabling Profound Misuse](https://hiddenlayer.com/research/new-google-gemini-content-manipulation-vulns-found/#Overview)**
+
+- **[We Hacked Google A.I. for $50,000](https://www.landh.tech/blog/20240304-google-hack-50000/)**
+
+- **[XSS Marks the Spot: Digging Up Vulnerabilities in ChatGPT](https://www.imperva.com/blog/xss-marks-the-spot-digging-up-vulnerabilities-in-chatgpt/)**
+
+- **[ChatGPT Account Takeover - Wildcard Web Cache Deception](https://nokline.github.io/bugbounty/2024/02/04/ChatGPT-ATO.html)**
+
+- **[Bypass instructions to manipulate Google Bard AI (Conversational generative AI chatbot) to reveal its security vulnerability i.e. configuration file details exposure](https://medium.com/@kiranmaraju/bypass-instructions-to-manipulate-google-bard-ai-conversational-generative-ai-chatbot-to-reveal-ac23156d5eee)**
+
+- **[AWS Fixes Data Exfiltration Attack Angle in Amazon Q for Business](https://embracethered.com/blog/posts/2024/aws-amazon-q-fixes-markdown-rendering-vulnerability/)**
+
+- **[Hacking Google Bard - From Prompt Injection to Data Exfiltration](https://embracethered.com/blog/posts/2023/google-bard-data-exfiltration/)**
+
+- **[Anonymised Penetration Test Report](https://handbook.volkis.com.au/assets/doc/Volkis%20-%20Anonymous%20Client%20-%20Penetration%20Test%20May%202023.pdf)**
+
+- **[OpenAI Allowed “Unlimited” Credit on New Accounts](https://checkmarx.com/blog/openai-allowed-unlimited-credit-on-new-accounts/)**
+
+- **[Shockwave Identifies Web Cache Deception and Account Takeover Vulnerability affecting OpenAI's ChatGPT](https://www.shockwave.cloud/blog/shockwave-works-with-openai-to-fix-critical-chatgpt-vulnerability)**
+
 ## Contributing
 
 If you know of any other valuable resources that should be included, feel free to submit a pull request or open an issue.
