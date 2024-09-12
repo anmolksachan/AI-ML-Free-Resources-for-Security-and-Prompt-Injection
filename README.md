@@ -63,6 +63,7 @@ Welcome to the roadmap for learning AI/ML pentesting from scratch! This guide wi
 ## Additional Resources
 
 - **[LLM Hacker's Handbook](https://github.com/forcesunseen/llm-hackers-handbook?tab=readme-ov-file)**
+- **[PayloadAllTheThings](https://swisskyrepo.github.io/PayloadsAllTheThings/Prompt%20Injection/)**
 - **[AI Exploits Repository](https://github.com/protectai/ai-exploits?tab=readme-ov-file)**
 - **[Google Gemini Vulnerability Research](https://hiddenlayer.com/research/new-google-gemini-content-manipulation-vulns-found/#Overview)**
 - **[OpenAI Allowed Unlimited Credit on New Accounts](https://checkmarx.com/blog/openai-allowed-unlimited-credit-on-new-accounts/)**
