@@ -66,6 +66,7 @@ Welcome to the roadmap for learning AI/ML pentesting from scratch! This guide wi
 - **[AI Exploits Repository](https://github.com/protectai/ai-exploits?tab=readme-ov-file)**
 - **[Google Gemini Vulnerability Research](https://hiddenlayer.com/research/new-google-gemini-content-manipulation-vulns-found/#Overview)**
 - **[OpenAI Allowed Unlimited Credit on New Accounts](https://checkmarx.com/blog/openai-allowed-unlimited-credit-on-new-accounts/)**
+- **[YT / Penetration Testing against and with AI/LLM/ML](https://www.youtube.com/playlist?list=PL1Aj7oPl6slsd3Er7PfeOIEFYPDQvMRUf)**
 
 
 <!--
