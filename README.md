@@ -105,13 +105,16 @@ This repository contains a curated list of free resources focused on AI/ML secur
 - **[Snyk OWASP Top 10 LLM](https://go.snyk.io/rs/677-THP-415/images/owasp-top-10-llm.pdf)**  
   Snyk's OWASP Top 10 for LLM applications.
 
+- **[LLM Hacker's Handbook](https://github.com/forcesunseen/llm-hackers-handbook?tab=readme-ov-file)**
+
+
 ## Resources
 
 - **[LLM PENTEST: LEVERAGING AGENT INTEGRATION FOR RCE](https://www.blazeinfosec.com/post/llm-pentest-agent-hacking/)**
 
-- **[]()**
+- **[How to persuade a LLM to change it’s system prompt to aid in CTF challenges](https://medium.com/@KonradDaWo/how-to-persuade-a-llm-to-change-its-system-prompt-to-aid-in-ctf-challenges-e74c1d570ed3)**
 
-- **[]()**
+- **[CTF Writeup — HackPack CTF 2024 — LLM edition — YellowDog-1](https://medium.com/@embossdotar/ctf-writeup-hackpack-ctf-2024-llm-edition-yellowdog-1-db02a36e1051)**
 
 ## Contributing
 
