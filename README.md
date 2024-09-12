@@ -105,6 +105,14 @@ This repository contains a curated list of free resources focused on AI/ML secur
 - **[Snyk OWASP Top 10 LLM](https://go.snyk.io/rs/677-THP-415/images/owasp-top-10-llm.pdf)**  
   Snyk's OWASP Top 10 for LLM applications.
 
+## Resources
+
+- **[LLM PENTEST: LEVERAGING AGENT INTEGRATION FOR RCE](https://www.blazeinfosec.com/post/llm-pentest-agent-hacking/)**
+
+- **[]()**
+
+- **[]()**
+
 ## Contributing
 
 If you know of any other valuable resources that should be included, feel free to submit a pull request or open an issue.
