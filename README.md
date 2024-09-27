@@ -69,6 +69,7 @@ Welcome to the roadmap for learning AI/ML pentesting from scratch! This guide wi
 - **[OpenAI Allowed Unlimited Credit on New Accounts](https://checkmarx.com/blog/openai-allowed-unlimited-credit-on-new-accounts/)**
 - **[YT / Penetration Testing against and with AI/LLM/ML](https://www.youtube.com/playlist?list=PL1Aj7oPl6slsd3Er7PfeOIEFYPDQvMRUf)**
 - **[WideOpenAI](https://github.com/WibblyOWobbly/WideOpenAI)**
+- **[Chatgpt-DAN](https://github.com/alexisvalentino/Chatgpt-DAN)**
 
 
 <!--
