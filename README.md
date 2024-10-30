@@ -70,6 +70,7 @@ Welcome to the roadmap for learning AI/ML pentesting from scratch! This guide wi
 - **[YT / Penetration Testing against and with AI/LLM/ML](https://www.youtube.com/playlist?list=PL1Aj7oPl6slsd3Er7PfeOIEFYPDQvMRUf)**
 - **[WideOpenAI](https://github.com/WibblyOWobbly/WideOpenAI)**
 - **[Chatgpt-DAN](https://github.com/alexisvalentino/Chatgpt-DAN)**
+- **[Payloads for Attacking Large Language Models (PALLMs)](https://github.com/mik0w/pallms/)**
 
 
 <!--
