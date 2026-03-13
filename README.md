@@ -283,6 +283,7 @@ Key areas to test when assessing an LLM-powered application:
 | [PromptInject](https://github.com/agencyenterprise/PromptInject) | Prompt injection attack framework |
 | [PurpleLlama / CyberSecEval](https://github.com/facebookresearch/PurpleLlama) | Meta's LLM security evaluation |
 | [LLM Injector](https://github.com/anmolksachan/LLMInjector) | LLM Injector Burp Suite Extention |
+| [Prompt Map](https://github.com/utkusen/promptmap) | A security scanner for custom LLM applications |
 
 ### Defensive / Scanning Tools
 
