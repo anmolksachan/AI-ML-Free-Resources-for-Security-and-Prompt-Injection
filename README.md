@@ -532,6 +532,7 @@ AI/ML security bug bounties are growing rapidly. Target these platforms:
 
 ### Newsletters & Blogs
 
+- [AI Weekly](https://aiweekly.co/) — Tracks what influential AI experts and organizations are reading and sharing across models, agents, funding, policy, and research
 - [The Batch — DeepLearning.AI](https://www.deeplearning.ai/the-batch/) — Weekly AI news
 - [Simon Willison's Weblog](https://simonwillison.net/) — Authoritative LLM security commentary
 - [HiddenLayer Research](https://hiddenlayer.com/research/) — AI security research
