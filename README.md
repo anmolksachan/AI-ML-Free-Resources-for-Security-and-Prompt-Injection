@@ -551,6 +551,7 @@ A practical checklist for engagements:
 - [Lakera Real World LLM Exploits (PDF)](https://lakera-marketing-public.s3.eu-west-1.amazonaws.com/Lakera%2BAI%2B-%2BReal%2BWorld%2BLLM%2BExploits%2B(Jan%2B2024)-min.pdf)
 - [The Register — Anthropic, Google, Microsoft paid AI bug bounties quietly](https://www.theregister.com/security/2026/04/15/anthropic-google-microsoft-paid-ai-bug-bounties-quietly/) — Apr 2026; agent prompt injection to credential theft across three vendors, and the CVE-assignment gap it exposed
 - [AI Penetration Testing: A Complete Guide — HackingDream](https://www.hackingdream.net/2026/03/ai-penetration-testing-complete-guide-to-ai-red-teaming.html) — Mar 2026 comprehensive playbook
+- [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) — Open database of real-world AI agent security incidents, Jan 2025 → Sep 2026; every record cites a primary source and flags confirmed harm vs. demonstrated-only, plus whether AI involvement is confirmed
 
 ### 8.2 How to Find LLM Vulnerabilities
 
