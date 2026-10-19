@@ -286,6 +286,7 @@ MCP (introduced by Anthropic in late 2024) is the de facto standard for connecti
 - [Checkmarx — 11 Emerging AI Security Risks with MCP](https://checkmarx.com/zero-post/11-emerging-ai-security-risks-with-mcp-model-context-protocol/) — Nov 2025
 - [MCP Prompt Injection: How AI Gets Hacked (YouTube)](https://www.youtube.com/watch?v=bO-7DB-3dL8) — Nov 2025 hands-on walkthrough
 - [ToxicSkills: Snyk Finds Malware in 36% of AI Agent Skills](https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/) — Feb 2026; 3,984 skills audited, 36.82% flawed, 13.4% critical, confirmed malicious payloads
+- [Shadow MCP Servers: Why They're Hard to Track](https://webofmike.com/shadow-mcp-servers/): Sep 2026. Fingerprints MCP servers in both protocol eras (server/discover, then initialize, then GET /sse), shows what an open server's tools/list hands an anonymous caller, and maps where eight MCP clients keep their server config. Read-only stdlib Python scanner with a seven-endpoint lab
 
 **Notable MCP CVEs and incidents to study:**
 - **CVE-2025-6514** — `mcp-remote` proxy RCE (CVSS 9.6), 437,000+ affected installs
