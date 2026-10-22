@@ -201,6 +201,7 @@ Key attack vectors in AI/ML systems:
 - [PayloadsAllTheThings — Prompt Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/Prompt%20Injection/)
 - [PALLMs — Payloads for Attacking LLMs](https://github.com/mik0w/pallms/)
 - [L1B3RT4S — jailbreak prompt collection](https://github.com/elder-plinius/L1B3RT4S) — Large, actively updated public jailbreak corpus, useful as a regression-test set
+- [OrcaPromptVault — system prompt archive](https://github.com/Continuum-AI-Corp/OrcaPromptVault) — 119 system prompts and tool schemas from 43 shipping AI products; 44 of them recorded off the wire by a local proxy, each with the command that reproduces it, so a prompt you extracted can be diffed against a reference instead of trusted
 
 ### 3.3 Indirect Prompt Injection
 
