@@ -641,6 +641,7 @@ Key areas to test when assessing an LLM-powered application:
 | [Sentinel AI](https://github.com/MaxwellCalkin/sentinel-ai) | Real-time detection across 12 languages, Claude Code attack vectors, MCP proxy · `Unverified` |
 | [Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard) | Local Rust scanner for AI-agent prompt injection, credential leakage, exfiltration, MCP context, risky tool-call enforcement · `Unverified` |
 | [PIC Standard](https://github.com/madeinplutofabio/pic-standard) | Protocol to block unauthorized agent actions via intent + provenance checks · `Unverified` |
+| [Ironheights](https://github.com/Frank-Masciopinto/ironheights) | Local pre-install static scanner for OpenClaw/ClawHub agent skills (`SKILL.md` and bundled files): instruction override, hidden text, credential reads, exfiltration, remote-exec installs, persistence; baseline integrity pinning and quarantine · `Unverified` |
 
 ### Defensive / Scanning Tools
 
