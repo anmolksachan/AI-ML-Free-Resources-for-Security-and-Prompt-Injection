@@ -214,6 +214,7 @@ A sophisticated attack where malicious instructions are injected via external da
 - [Indirect Prompt Injection Through MCP Tools: A Defense Guide](https://www.stackone.com/blog/indirect-prompt-injection-mcp-tools-defense) — Feb 2026, covers every MCP tool category
 - [CrowdStrike — Indirect Prompt Injection Attacks: Hidden AI Risks](https://www.crowdstrike.com/en-us/blog/indirect-prompt-injection-attacks-hidden-ai-risks/) — Dec 2025, enterprise IPI TTPs and SOC detection signals
 - [Lakera — Indirect Prompt Injection: The Hidden Threat](https://www.lakera.ai/blog/indirect-prompt-injection) — Zero-click RCE in MCP-based AI IDEs case study
+- [Aeneia Signal - Prompt injection in business documents (Polish)](https://blog.aeneia.pl/prompt-injection-w-dokumentach-firmowych) - A practical guide to testing trust boundaries with fictional documents and mocked actions.
 
 ### 3.4 Advanced Prompt Attack Techniques
 
