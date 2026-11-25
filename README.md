@@ -59,7 +59,7 @@ Before diving into AI/ML pentesting, ensure you have the following foundation:
 - Understand OAuth 2.0 / OAuth 2.1 and JWT — required for MCP authorization work
 
 ### Autonomous / AI-Assisted Pentest Platforms
-- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) — Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, with proof of exploitation and a local privacy gateway. `Unverified`
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) — Open source (AGPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, with proof of exploitation and a local privacy gateway.
 
 ---
 
@@ -115,12 +115,12 @@ You do not need to train models, but you do need to know where the seams are.
 - [OWASP GenAI LLM Top 10 — canonical GitHub source](https://github.com/GenAI-Security-Project/GenAI-LLM-Top10) — Errata form, Zenodo archive, and the machine-readable citation file
 - [OWASP LLM Top 10 (2025)](https://genai.owasp.org/llm-top-10/) — `Legacy` but still widely referenced; most tooling and CTFs published in 2025–early 2026 map to this version, so keep it for cross-referencing
 - [OWASP Top 10 for LLM Applications v1.1 (2023)](https://owasp.github.io/www-project-top-10-for-large-language-model-applications/) — `Historical` archive of the original list
-- [OWASP Top 10 for Agentic Applications 2026 (ASI01–ASI10)](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) — Announced December 2025. Covers planning, tool use, identity, supply chain, code execution, memory, inter-agent communication, cascading failures, human–agent trust, and rogue agents
+- [OWASP Top 10 for Agentic Applications 2026 (ASI01–ASI10)](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) — Announced December 2025. ASI01 Agent Goal Hijack, ASI02 Tool Misuse and Exploitation, ASI03 Identity and Privilege Abuse, ASI04 Agentic Supply Chain Vulnerabilities, ASI05 Unexpected Code Execution (RCE), ASI06 Memory and Context Poisoning, ASI07 Insecure Inter-Agent Communication, ASI08 Cascading Failures, ASI09 Human-Agent Trust Exploitation, ASI10 Rogue Agents
 - [OWASP GenAI Security Project — Agent Control Standard & 2026 announcements](https://genai.owasp.org/2026/09/01/owasp-genai-security-project-unveils-2026-top-10-for-llm-applications-new-agent-control-standard-and-sponsors-as-community-tops-30000-members/) — September 2026: ACS donation, expanded AI security solutions guidance
-- [OWASP MCP Top 10](https://owasp.org/www-project-mcp-top-10/) — MCP01 Token Mismanagement, MCP02 Privilege Escalation via Scope Creep, MCP03 Tool Poisoning, MCP04 Supply Chain & Dependency Tampering, MCP05 Command Injection, MCP06 Intent Flow Subversion, MCP07 Insufficient AuthN/AuthZ, MCP08 Lack of Audit & Telemetry, MCP09 Shadow MCP Servers, MCP10 Context Injection & Over-Sharing
-- [OWASP GenAI Red Teaming Guide & Red Team Initiative](https://genai.owasp.org/) — Practical red teaming methodology; browse the project Resources index for the current PDF
-- [OWASP GenAI Red Team Lab (GitHub)](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab) — Companion repo to the Red Teaming Handbook: local LLM and RAG sandboxes plus garak/promptfoo exploitation examples
-- [MITRE ATLAS Matrix](https://atlas.mitre.org/matrices/ATLAS/) — The AI adversarial threat matrix. v5.1.0 (November 2025) expanded to 16 tactics and 84 techniques; 2026 releases added agentic AI techniques. Prompt injection is `AML.T0051`
+- [OWASP MCP Top 10](https://owasp.org/www-project-mcp-top-10/) — MCP01 Token Mismanagement, MCP02 Privilege Escalation via Scope Creep, MCP03 Tool Poisoning, MCP04 Supply Chain & Dependency Tampering, MCP05 Command Injection, MCP06 Intent Flow Subversion, MCP07 Insufficient AuthN/AuthZ, MCP08 Lack of Audit & Telemetry, MCP09 Shadow MCP Servers, MCP10 Context Injection & Over-Sharing. Currently in beta (v0.1, Incubator phase as of November 2026) — categories and rankings may still change before final release
+- [OWASP GenAI Red Teaming Manual v1.0](https://genai.owasp.org/resource/genai-red-teaming-manual-version-1-0/) — 144-page practitioner manual released October 2026, downloadable PDF. Supersedes the earlier Red Teaming Guide. See also the [companion Red Team Lab](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab)
+- [OWASP GenAI Red Team Lab (GitHub)](https://github.com/GenAI-Security-Project/GenAI-Red-Team-Lab) — Companion repo to the Red Teaming Manual: local LLM and RAG sandboxes plus garak/promptfoo exploitation examples
+- [MITRE ATLAS Matrix](https://atlas.mitre.org/matrices/ATLAS/) — The AI adversarial threat matrix. v5.1.0 (November 2025) expanded to 16 tactics and 84 techniques. As of v2026.09 (September 2026): 16 tactics, 120 techniques, 88 sub-techniques, 73 case studies, with 14 agentic AI techniques added via the Zenity Labs collaboration. Prompt injection is `AML.T0051`
 - [MITRE ATLAS Case Studies](https://atlas.mitre.org/studies/) — Real incidents mapped to the matrix; the best source of grounded threat models
 - [NIST AI 100-2e2025 — Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf) — The canonical taxonomy (PredAI vs GenAI, evasion/poisoning/privacy/abuse). Published March 2025, supersedes AI 100-2e2023
 - [NIST AI Risk Management Framework](https://airc.nist.gov/Home) — Federal AI risk guidance
@@ -162,7 +162,7 @@ Key attack vectors in AI/ML systems:
 
 - [From MLOps to MLOops — JFrog](https://jfrog.com/blog/from-mlops-to-mloops-exposing-the-attack-surface-of-machine-learning-platforms/)
 - [Offensive ML Playbook](https://wiki.offsecml.com/Welcome+to+the+Offensive+ML+Playbook)
-- [AI Exploits — ProtectAI](https://github.com/protectai/ai-exploits)
+- [AI Exploits — ProtectAI](https://github.com/protectai/ai-exploits) — Metasploit modules and Nuclei templates for MLflow, Ray, H2O and similar MLOps platforms. Last updated October 2024; covers inference infrastructure rather than LLM applications
 - [Awesome AI Security — ottosulin](https://github.com/ottosulin/awesome-ai-security)
 - [Shelltorch — TorchServe vulnerabilities (CVSS 9.9)](https://www.oligo.security/blog/shelltorch-explained-multiple-vulnerabilities-in-pytorch-model-server) — Still the reference case study for exposed inference servers
 - [Cisco — Detecting Exposed LLM Servers: A Shodan Case Study on Ollama](https://blogs.cisco.com/security/detecting-exposed-llm-servers-shodan-case-study-on-ollama) — Unauthenticated local-inference servers exposed to the internet
@@ -407,6 +407,7 @@ RAG is where enterprise data meets untrusted content, and it maps to **LLM09: Ve
 - [OWASP LLM09 — Vector and Embedding Weaknesses](https://genai.owasp.org/llm-top-10/) — The normative description
 - [RAG Security: The Forgotten Attack Surface — Christian Schneider](https://christian-schneider.net/blog/rag-security-forgotten-attack-surface/) — Feb 2026; the best single practitioner write-up, with concrete detection guidance
 - [PoisonedRAG (USENIX Security 2025)](https://arxiv.org/abs/2402.07867) — The reference corpus-poisoning paper
+- [ConfusedPilot: Confused Deputy Attacks on RAG-Based LLMs (arXiv 2408.04870)](https://arxiv.org/abs/2408.04870) — UT Austin Spark Lab; integrity and confidentiality attacks on MS365 Copilot via phantom documents and cache-side-channel exfiltration. Presented at DEF CON AI Village 2024
 - [Towards Secure Retrieval-Augmented Generation: Threats, Defenses and Benchmarks (arXiv 2603.21654)](https://arxiv.org/abs/2603.21654) — 2026 survey covering inversion, poisoning and defenses. `Unverified` ID
 - [Can You Trust the Vectors in Your Vector Database? (arXiv 2604.05480)](https://arxiv.org/abs/2604.05480) — Black-hole attacks from embedding-space defects. `Unverified` ID
 
@@ -430,7 +431,7 @@ A practical checklist for engagements:
 
 | Platform | Description | Link |
 |---|---|---|
-| Gandalf | LLM prompt testing game — extract the password (8 levels) | [gandalf.lakera.ai](https://gandalf.lakera.ai/) |
+| Gandalf: Agent Breaker | Attack 10 AI apps across multiple agentic levels (successor to the original password game, which is no longer available) | [play.lakera.ai/agent-breaker](https://play.lakera.ai/agent-breaker) |
 | OWASP FinBot CTF ⭐ NEW | "The Juice Shop for Agentic AI." Multi-agent vendor-management platform with real tool access; challenges mapped to OWASP LLM Top 10, ASI Top 10, CWE and MITRE ATLAS. No setup, browser-based | [owasp-finbot-ctf.org](https://owasp-finbot-ctf.org/) |
 | AI Goat (AIGoat) ⭐ NEW | Local-first, fully offline vulnerable AI e-commerce app (Ollama-backed). Attack labs + CTF challenges + progressive defense levels across the whole OWASP LLM Top 10 | [github.com/AISecurityConsortium/AIGoat](https://github.com/AISecurityConsortium/AIGoat) |
 | Damn Vulnerable MCP Server (DVMCP) ⭐ NEW | 10 Dockerized MCP challenges: prompt injection, tool poisoning, excessive permissions, rug pulls, tool shadowing, token theft, multi-vector chains | [github.com/harishsg993010/damn-vulnerable-MCP-server](https://github.com/harishsg993010/damn-vulnerable-MCP-server) |
@@ -438,7 +439,7 @@ A practical checklist for engagements:
 | Crucible | Interactive AI security challenges by Dreadnode | [crucible.dreadnode.io](https://crucible.dreadnode.io/) |
 | Immersive Labs AI | Structured AI security exercises | [prompting.ai.immersivelabs.com](https://prompting.ai.immersivelabs.com/) |
 | Secdim AI Games | Prompt injection games | [play.secdim.com/game/ai](https://play.secdim.com/game/ai) |
-| HackAPrompt | Community prompt injection competition | [hackaprompt.com](https://www.hackaprompt.com/) |
+| HackAPrompt 2.0 | Continuous AI red-teaming platform, $100K+ in prizes, 47K+ community members, multiple tracks including agent manipulation and indirect prompt injection | [hackaprompt.com](https://www.hackaprompt.com/) |
 | PortSwigger LLM Labs | Hands-on web LLM attack labs — prompt injection, excessive agency, insecure output handling | [Web Security Academy](https://portswigger.net/web-security/llm-attacks) |
 | PromptTrace | 7 labs + 15-level CTF with real-time context trace | [prompttrace.airedlab.com](https://prompttrace.airedlab.com/) · `Unverified` |
 | CrowdStrike AI Unlocked | Agent-focused prompt injection challenges (Feb 2026) | [crowdstrike.com](https://www.crowdstrike.com/en-us/blog/introducing-ai-unlocked-interactive-prompt-injection-challenge/) |
@@ -590,19 +591,21 @@ Key areas to test when assessing an LLM-powered application:
 | [OWASP LLM Top 10 (2025)](https://genai.owasp.org/llm-top-10/) | `Legacy` — still the mapping target for most 2025–early-2026 tooling and CTFs |
 | [OWASP Top 10 for LLM Apps v1.1 (2023)](https://owasp.github.io/www-project-top-10-for-large-language-model-applications/) | `Historical` archive |
 | [OWASP Top 10 for Agentic Applications (2026)](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) | ASI01–ASI10; goal hijack, tool misuse, memory poisoning, rogue agents |
-| [OWASP MCP Top 10](https://owasp.org/www-project-mcp-top-10/) | MCP01–MCP10 protocol-layer risks |
+| [OWASP MCP Top 10](https://owasp.org/www-project-mcp-top-10/) | MCP01–MCP10 protocol-layer risks. Beta (v0.1, Incubator) as of November 2026 |
 | [OWASP Agent Control Standard](https://genai.owasp.org/) | Runtime enforcement model for agent behavior, donated Sept 2026 |
 | [OWASP AI Exchange](https://owaspai.org/) | Cross-industry AI security guidance; feeds ISO/IEC and EU AI Act work |
-| [OWASP GenAI Red Teaming Guide](https://genai.owasp.org/) | Practical red teaming methodology (Resources index) |
-| [MITRE ATLAS](https://atlas.mitre.org/matrices/ATLAS/) | AI adversarial threat matrix; v5.1.0 Nov 2025, agentic techniques added through 2026 |
+| [OWASP AISVS 1.0](https://owasp.github.io/www-project-artificial-intelligence-security-verification-standard-aisvs-docs/) | OWASP AI Security Verification Standard — testable security requirements for AI systems; 12 control families, 3 assurance levels. Released June 2026. The ASVS equivalent for AI |
+| [OWASP GenAI Red Teaming Manual v1.0](https://genai.owasp.org/resource/genai-red-teaming-manual-version-1-0/) | 144-page practitioner manual, October 2026, downloadable PDF |
+| [MITRE ATLAS](https://atlas.mitre.org/matrices/ATLAS/) | AI adversarial threat matrix; v5.1.0 Nov 2025 (84 techniques); v2026.09 Sept 2026: 120 techniques, 88 sub-techniques, 73 case studies |
 | [MITRE ATLAS Navigator & Arsenal](https://atlas.mitre.org/) | Free threat-modeling and red-team tooling built on the matrix |
 | [NIST AI 100-2e2025](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf) | Adversarial ML taxonomy and terminology (March 2025) |
 | [NIST AI RMF](https://airc.nist.gov/Home) | US Federal AI risk management framework |
 | [NIST AI 600-1 — Generative AI Profile](https://airc.nist.gov/) | GenAI-specific companion profile to the AI RMF |
 | [ISO/IEC 42001](https://www.iso.org/standard/81230.html) | International AI management standard |
 | [ENISA AI Threat Landscape](https://www.enisa.europa.eu/publications/enisa-threat-landscape-for-artificial-intelligence) | EU AI threat landscape report |
-| [Google Secure AI Framework (SAIF)](https://safety.google/cybersecurity-advancements/saif/) | Google's AI security framework |
+| [Google Secure AI Framework (SAIF)](https://safety.google/cybersecurity-advancements/saif/) | Google's AI security framework. Updated to SAIF 2.0 (2026) extending guidance to autonomous agent security risks; components contributed to the Coalition for Secure AI (CoSAI) |
 | [CISA — AI security guidance](https://www.cisa.gov/ai) | US joint guidance on deploying AI systems securely |
+| [CISA + Five Eyes — Careful Adoption of Agentic AI Services (April 2026)](https://media.defense.gov/2026/Apr/30/2003922823/-1/-1/0/CAREFUL%20ADOPTION%20OF%20AGENTIC%20AI%20SERVICES_FINAL.PDF) | First joint international government guidance on agentic AI security (CISA + NSA + Australia ACSC + Canada CCCS + NZ NCSC + UK NCSC), 28 pages |
 | [UK NCSC — Machine Learning Principles](https://www.ncsc.gov.uk/collection/machine-learning) | Principles-based ML security guidance referenced by NIST |
 | [CSA AI Controls Matrix](https://cloudsecurityalliance.org/research/working-groups/ai-controls) | 247 control objectives across 18 domains; maps to ISO 42001 and ISO 27001 |
 | [Model Context Protocol specification](https://modelcontextprotocol.io/) | Read the security and authorization sections of the current revision |
@@ -616,12 +619,12 @@ Key areas to test when assessing an LLM-powered application:
 | Tool | Purpose |
 |---|---|
 | [garak — NVIDIA](https://github.com/NVIDIA/garak) | LLM vulnerability scanner — 100+ probes for injection, jailbreaks, leakage. **Note: the canonical repo moved from `leondz/garak` to `NVIDIA/garak`.** Paper: [arXiv 2406.11036](https://arxiv.org/abs/2406.11036) |
-| [PyRIT](https://github.com/Azure/PyRIT) | Microsoft's Python Risk Identification Toolkit; multi-turn strategies (Crescendo, TAP, Skeleton Key) across text, image, audio |
+| [PyRIT](https://github.com/microsoft/PyRIT) | Microsoft's Python Risk Identification Toolkit; multi-turn strategies (Crescendo, TAP, Skeleton Key) across text, image, audio. Note: canonical repo is `microsoft/PyRIT` |
 | [promptfoo](https://github.com/promptfoo/promptfoo) | ⭐ LLM eval + red teaming with 50+ vulnerability checks and first-class CI/CD integration |
 | [DeepTeam](https://github.com/confident-ai/deepteam) | ⭐ Red-teaming framework simulating jailbreaks and multi-turn attacks across 40+ probes |
 | [Giskard](https://github.com/Giskard-AI/giskard) | ⭐ Testing framework detecting injection, hallucination, bias and toxicity |
 | [PurpleLlama / CyberSecEval](https://github.com/meta-llama/PurpleLlama) | Meta's LLM security evaluation suite (repo moved from `facebookresearch/PurpleLlama`) |
-| [LLM Fuzzer](https://github.com/mnns/LLMFuzzer) | Fuzzing framework for LLMs |
+| [LLM Fuzzer](https://github.com/mnns/LLMFuzzer) | Fuzzing framework for LLMs · `Archived` — self-described as unmaintained, last commit February 2024 |
 | [PALLMs](https://github.com/mik0w/pallms/) | Payloads for attacking LLMs |
 | [PromptInject](https://github.com/agencyenterprise/PromptInject) | Prompt injection attack framework · `Foundational` |
 | [LLM Injector](https://github.com/anmolksachan/LLMInjector) | LLM Injector Burp Suite Extension |
@@ -631,6 +634,8 @@ Key areas to test when assessing an LLM-powered application:
 | [AgentSeal](https://github.com/agentseal/agentseal) | 150 attack probes against AI agents; supports OpenAI, Anthropic, Ollama · `Unverified` |
 | [Token Turbulenz](https://github.com/wunderwuzzi23/token-turbulenz) | Fuzzer to automate looking for prompt injections |
 | [InjectLab](https://github.com/ahow2004/injectlab) | MITRE-style matrix of adversarial prompt injection techniques · `Unverified` |
+| [inspect_ai — UK AISI](https://github.com/UKGovernmentBEIS/inspect_ai) | MIT-licensed Python eval framework from the UK AI Security Institute. Adopted by Anthropic, DeepMind and others for safety evals. Useful for red teamers building reproducible, quantified assessments |
+| [PromptBench — Microsoft](https://github.com/microsoft/promptbench) | Adversarial robustness evaluation framework; 4,032 adversarial prompts across 8 tasks, word/char/sentence/semantic attack levels |
 
 ### MCP & Agent Security Tools ⭐ NEW
 
@@ -649,7 +654,7 @@ Key areas to test when assessing an LLM-powered application:
 
 | Tool | Purpose |
 |---|---|
-| [Rebuff](https://github.com/protectai/rebuff) | Prompt injection detection |
+| [Rebuff](https://github.com/protectai/rebuff) | Prompt injection detection · `Archived` — archived by ProtectAI August 2024, read-only. Community forks maintain dependency updates; not recommended for new projects |
 | [LLM Guard — Protect AI](https://github.com/protectai/llm-guard) | ⭐ 15 input + 20 output scanners: injection, PII, secrets, toxicity |
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | NVIDIA programmable input/dialog/retrieval/output rails |
 | [Lakera Guard](https://www.lakera.ai/) | Commercial prompt injection protection |
@@ -743,9 +748,9 @@ Datasets worth knowing: the HackAPrompt competition corpus (large real-world hum
 |---|---|---|
 | OWASP FinBot CTF ⭐ | Agentic AI CTF from the OWASP GenAI Security Project; challenges mapped to LLM Top 10, ASI Top 10, CWE, ATLAS | [owasp-finbot-ctf.org](https://owasp-finbot-ctf.org/) |
 | Crucible | Ongoing AI security challenges | [crucible.dreadnode.io](https://crucible.dreadnode.io/) |
-| HackAPrompt | Annual prompt injection competition | [hackaprompt.com](https://www.hackaprompt.com/) |
+| HackAPrompt 2.0 | Continuous AI red-teaming platform, $100K+ in prizes, 47K+ community members, multiple tracks including agent manipulation and indirect prompt injection | [hackaprompt.com](https://www.hackaprompt.com/) |
 | AI Village CTF (DEF CON) | Annual AI security CTF at DEF CON | [aivillage.org](https://aivillage.org/) |
-| Gandalf | Self-paced LLM challenge, 8 levels | [gandalf.lakera.ai](https://gandalf.lakera.ai/) |
+| Gandalf: Agent Breaker | Attack 10 AI apps across multiple agentic levels (successor to the original password game, which is no longer available) | [play.lakera.ai/agent-breaker](https://play.lakera.ai/agent-breaker) |
 | Prompt Airlines | Gamified injection challenges | [promptairlines.com](https://promptairlines.com/) |
 | Hack The Box AI Challenges | HTB AI-themed challenges | [hackthebox.com](https://www.hackthebox.com/) |
 | Secdim AI Games | Web-based AI security games | [play.secdim.com/game/ai](https://play.secdim.com/game/ai) |
@@ -768,11 +773,12 @@ AI/ML security bug bounties are growing rapidly — but **scopes differ sharply,
 | **OpenAI Safety Bug Bounty** ⭐ NEW | Explicitly scopes **third-party prompt injection and data exfiltration** against agentic products (Browser, ChatGPT Agent). Jailbreaks out of scope; general content-policy bypasses out of scope | [openai.com/index/safety-bug-bounty](https://openai.com/index/safety-bug-bounty/) |
 | **OpenAI Bio Bug Bounty** | Invite/NDA program, rolling applications, model-specific scope that rotates | [openai.com/index/bio-bug-bounty](https://openai.com/index/bio-bug-bounty/) |
 | **Anthropic** | Claude, API, and a model-safety program focused on universal jailbreaks against deployed safeguards. Now run publicly on HackerOne | [anthropic.com/security](https://www.anthropic.com/security) |
-| **Google AI VRP** | Gemini apps, Search, Workspace core, AI Studio. ⚠️ **Prompt injection, jailbreaks and alignment issues are explicitly out of scope** — send those elsewhere. Rewards emphasize sensitive-data exfiltration and state-changing bugs | [bughunters.google.com](https://bughunters.google.com/) |
+| **Google AI VRP** | Gemini apps, Search, Workspace core, AI Studio. ⚠️ **Generic prompt injection and standalone jailbreaks are out of scope.** However, indirect prompt injection causing data exfiltration or rogue actions (e.g., calendar-invite exfil, home automation) is in scope and has paid bounties in 2026. Rewards emphasize sensitive-data exfiltration and state-changing bugs | [bughunters.google.com](https://bughunters.google.com/) |
 | **Microsoft (Copilot, Azure AI)** | Copilot consumer AI experiences and Azure OpenAI; updated in 2026 to accept moderate-severity submissions | [msrc.microsoft.com](https://msrc.microsoft.com/create-report) |
 | **Meta AI Bug Bounty** | Llama models, Meta AI | [facebook.com/whitehat](https://www.facebook.com/whitehat) |
 | **Huntr (AI/ML focused)** | Open-source ML libraries, and the Hugging Face Hub / models / spaces surface | [huntr.com](https://huntr.com/) |
 | **0DIN (Mozilla)** | GenAI-specific bounty program accepting jailbreak and model-manipulation classes that mainstream VRPs reject | [0din.ai](https://0din.ai/) |
+| **xAI / Grok** | Active program covering Grok models, Grok integrations on X, and the xAI API. Up to $20,000 rewards. Active in 2026 with notable incidents including Cryptographic Context Injection | [hackerone.com/x](https://hackerone.com/x) |
 
 > **Verification note:** program scopes and payout tables change frequently. Every entry above should be re-read on the official page before you invest research time. Nothing in this table should be treated as a guarantee that a class of finding will be rewarded.
 
@@ -841,6 +847,8 @@ Johann Rehberger (Embrace the Red) · Simon Willison · Kai Greshake · Florian 
 | [AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses](https://arxiv.org/abs/2406.13352) | 2024 | Agent security benchmark ⭐ |
 | [garak: A Framework for Security Probing Large Language Models](https://arxiv.org/abs/2406.11036) | 2024 | Scanning methodology |
 | [PoisonedRAG: Knowledge Corruption Attacks on RAG](https://arxiv.org/abs/2402.07867) | 2024/25 | RAG poisoning (USENIX Sec 2025) |
+| [ComPromptMized: Self-Replicating Generative AI Worms (Morris II)](https://arxiv.org/abs/2403.02817) | 2024 | First generative AI worm via adversarial self-replicating prompts across RAG-based email agents (Nassi, Cohen, Bitton) |
+| [ConfusedPilot: Confused Deputy Attacks on RAG-Based LLMs](https://arxiv.org/abs/2408.04870) | 2024 | RAG confused-deputy attack on MS365 Copilot, UT Austin Spark Lab |
 | [CaMeL: Defeating Prompt Injections by Design](https://arxiv.org/abs/2503.18813) | 2025 | Architectural defense ⭐ |
 | [Attention Tracker: Detecting Prompt Injection via Attention Distribution Shifts](https://aclanthology.org/2025.findings-naacl.123.pdf) | 2025 | Detection (NAACL) |
 | [ToolHijacker: Prompt Injection to Tool Selection in LLM Agents](https://arxiv.org/abs/2504.19793) | 2025 | Tool-selection attacks |
@@ -871,7 +879,7 @@ Johann Rehberger (Embrace the Red) · Simon Willison · Kai Greshake · Florian 
 2. Learn Python basics
 3. Take [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course)
 4. Read the [OWASP GenAI LLM Top 10 (2026)](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) — then skim the 2025 list so you recognize the older category names in tooling
-5. Play [Gandalf](https://gandalf.lakera.ai/) — all 8 levels
+5. Play [Gandalf: Agent Breaker](https://play.lakera.ai/agent-breaker) — agentic challenges attacking 10 AI apps (successor to the original password game)
 6. Read [Simon Willison's prompt injection article](https://simonwillison.net/2023/May/2/prompt-injection-explained/)
 7. Watch [Andrej Karpathy — Intro to LLMs](https://www.youtube.com/watch?v=zjkBMFhNj_g) and the [tokenizer video](https://www.youtube.com/watch?v=zduSFxRajkE)
 8. Read [Prompt Injection Cheat Sheet — Seclify](https://blog.seclify.com/prompt-injection-cheat-sheet/)
@@ -885,7 +893,7 @@ Johann Rehberger (Embrace the Red) · Simon Willison · Kai Greshake · Florian 
 4. Work [OWASP FinBot CTF](https://owasp-finbot-ctf.org/) and [Crucible](https://crucible.dreadnode.io/)
 5. Read the [LLM Hacker's Handbook](https://github.com/forcesunseen/llm-hackers-handbook)
 6. Study [Embrace the Red blog](https://embracethered.com/blog/) in full
-7. Experiment with [garak](https://github.com/NVIDIA/garak), [PyRIT](https://github.com/Azure/PyRIT) and [promptfoo](https://github.com/promptfoo/promptfoo) — get one running in CI
+7. Experiment with [garak](https://github.com/NVIDIA/garak), [PyRIT](https://github.com/microsoft/PyRIT) and [promptfoo](https://github.com/promptfoo/promptfoo) — get one running in CI
 8. Try the [Offensive ML Playbook](https://wiki.offsecml.com/Welcome+to+the+Offensive+ML+Playbook)
 9. Run [DVMCP](https://github.com/harishsg993010/damn-vulnerable-MCP-server) and reproduce [Invariant's tool-poisoning PoCs](https://github.com/invariantlabs-ai/mcp-injection-experiments)
 10. Read [Palo Alto Unit 42 MCP Attack Vectors](https://unit42.paloaltonetworks.com/model-context-protocol-attack-vectors/) and the [OWASP MCP Top 10](https://owasp.org/www-project-mcp-top-10/)
@@ -940,6 +948,8 @@ Once past intermediate, depth beats breadth. Pick one:
 
 ---
 
-*Last updated: September 2026 | Contributions welcome — submit a PR with new resources.*
+| **November 2026 update** | Broken link fixes: Gandalf now Agent Breaker (play.lakera.ai/agent-breaker), PyRIT org corrected to microsoft/PyRIT. Added OWASP AISVS 1.0 (June 2026 Flagship standard), CISA + Five Eyes "Careful Adoption of Agentic AI" (April 2026), OWASP GenAI Red Teaming Manual v1.0 (October 2026, 144 pages). Added ConfusedPilot and Morris II papers (direct citations). Added inspect_ai and PromptBench to offensive tools. Added xAI/Grok to bug bounty table. Marked Rebuff and LLMFuzzer as Archived. Updated MITRE ATLAS to v2026.09 (120 techniques). Added OWASP MCP Top 10 beta caveat. Corrected Google AI VRP prompt-injection scope nuance. Updated OWASP Agentic Top 10 to official ASI01-ASI10 names. Updated HackAPrompt description to 2.0 continuous platform. SAIF 2.0 note added. Darkmoon license corrected to AGPL-3.0 |
+
+*Last updated: November 2026 | Contributions welcome — submit a PR with new resources.*
 
 *Entries marked `Unverified` are community submissions that maintainers have not independently validated. If you can confirm or refute one, please open an issue.*
