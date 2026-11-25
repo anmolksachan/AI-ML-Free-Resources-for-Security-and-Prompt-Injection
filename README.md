@@ -445,6 +445,7 @@ A practical checklist for engagements:
 | LLMVault | CTF-style LLM security lab aligned to the OWASP LLM Top 10 | [github.com/CyberSunil/LLMVault](https://github.com/CyberSunil/LLMVault) · `Unverified` |
 | Jackpot | Ten-floor casino, each floor a deliberately broken AI, one per OWASP LLM Top 10 category | [hego.red/jackpot](https://hego.red/jackpot) · `Unverified` |
 | Pwned Labs | Free browser-based prompt injection labs (direct and indirect injection leading to Azure access) in live cloud environments, no account of your own needed | [pwnedlabs.io/explore](https://pwnedlabs.io/explore) |
+| Manzambi AI Security Lab | Browser-based, no account. Attack and defend AI agents: prompt-injection levels and agent hijacks, plus defender practice on agent logs (investigations, Sigma-style detection rules, containment) and team workshop rooms | [manzambi.com/lab](https://www.manzambi.com/lab/) |
 
 ### 6.2 Vulnerable-by-Design Projects
 
